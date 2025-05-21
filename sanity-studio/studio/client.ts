@@ -4,8 +4,8 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 export const client = createClient({
-  projectId: process.env.SANITY_PROJECT_ID!,
-  dataset: process.env.SANITY_DATASET!,
-  apiVersion: process.env.SANITY_API_VERSION!,
-  useCdn: process.env.SANITY_USE_CDN === 'true',
+  projectId: '7tj31003',
+  dataset: 'production',
+  apiVersion: '2024-01-01',
+  useCdn: false,
 })
