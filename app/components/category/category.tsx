@@ -9,8 +9,8 @@ import { useNavigate } from "@remix-run/react";
 import { ProductSectionProps } from "~/types";
 
 const CategorySection = ({ categoryData }: { categoryData: [] }) => {
-  // console.log("LOGGING FROM PRODUCTS COMPONENT");
-  // console.log(categoryData);
+  console.log("LOGGING FROM PRODUCTS COMPONENT");
+  console.log(categoryData);
 
   const navigation = useNavigate();
   const sectionRef = useRef(null);
@@ -72,7 +72,7 @@ const CategorySection = ({ categoryData }: { categoryData: [] }) => {
               variants={itemVariants}
               onClick={() => navigation(`/category/${category.title}`)}
             >
-              <ProductCard {...category} />
+              <ProductCard {...category} color={category.color} />
             </motion.div>
           ))}
         </motion.div>

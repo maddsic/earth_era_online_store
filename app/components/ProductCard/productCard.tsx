@@ -25,7 +25,7 @@ const ProductCard = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       whileHover={{ y: -5 }}
-      className="group relative overflow-hidden rounded-2xl bg-white shadow-lg"
+      className={`group relative overflow-hidden rounded-2xl ${color} shadow-lg`}
     >
       <div className="aspect-square overflow-hidden">
         <img
