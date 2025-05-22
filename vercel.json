@@ -1,8 +1,0 @@
-{
-    "build": {
-      "commands": {
-        "install": "pnpm install",
-        "build": "pnpm run build"
-      }
-    }
-  }
