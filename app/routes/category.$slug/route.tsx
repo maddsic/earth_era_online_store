@@ -9,7 +9,7 @@ import {
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { urlFor } from "sanity-studio/studio/imageBuilder";
-import { Navbar } from "~/components/Navbar/navbar";
+import { Navbar } from "app/components/Navbar/navbar";
 
 interface ProductsProps {
   _id: string;

@@ -1,7 +1,7 @@
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useRef, useState } from "react";
-import { FaqsData } from "~/resources/faqs";
+import { FaqsData } from "app/resources/faqs";
 import { SectionHeading } from "../sectionHeading/heading";
 
 const FaqsSection = () => {

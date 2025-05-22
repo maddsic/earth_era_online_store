@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { whyChooseUsData } from "~/resources/chooseUS";
+import { whyChooseUsData } from "app/resources/chooseUS";
 import { SectionHeading } from "../sectionHeading/heading";
 
 interface WhyChooseUsDataProps {

@@ -6,7 +6,7 @@ import { SectionHeading } from "../sectionHeading/heading";
 // Hooks
 import { useRef } from "react";
 import { useNavigate } from "@remix-run/react";
-import { ProductSectionProps } from "~/types";
+import { ProductSectionProps } from "app/types";
 
 const CategorySection = ({ categoryData }: { categoryData: [] }) => {
   console.log("LOGGING FROM PRODUCTS COMPONENT");

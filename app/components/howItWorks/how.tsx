@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import { HowItWorksData } from "~/resources/how";
+import { HowItWorksData } from "app/resources/how";
 
 const HowItWorksSection = () => {
   const sectionRef = useRef(null);

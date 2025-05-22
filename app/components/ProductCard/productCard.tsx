@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { urlFor } from "sanity-studio/studio/imageBuilder";
-import { ProductCardProps } from "~/types";
+import { ProductCardProps } from "app/types";
 
 const productImages = {
   moringa: "/moringa-product1.jpg",

@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 import { Mail, Phone, MapPin, FacebookIcon } from "lucide-react";
-import { navLinks } from "~/resources/navlinks";
+import { navLinks } from "app/resources/navlinks";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { div } from "framer-motion/client";
 

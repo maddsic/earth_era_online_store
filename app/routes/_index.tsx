@@ -1,18 +1,18 @@
 import type { MetaFunction } from "@remix-run/node";
-import BackToTop from "~/components/back-to-top/backToTop";
-import ChooseUs from "~/components/Choose/choose-us";
-import FaqsSection from "~/components/Faqs/faqs";
-import Footer from "~/components/footer/footer";
-import HeroSlider from "~/components/HeroSlider/hero";
-import HowItWorksSection from "~/components/howItWorks/how";
-import { Navbar } from "~/components/Navbar/navbar";
-import SocialSidebar from "~/components/socialSidebar/socialSidebar";
-import TestimonialSection from "~/components/testimonial/testimonials";
+import BackToTop from "app/components/back-to-top/backToTop";
+import ChooseUs from "app/components/Choose/choose-us";
+import FaqsSection from "app/components/Faqs/faqs";
+import Footer from "app/components/footer/footer";
+import HeroSlider from "app/components/HeroSlider/hero";
+import HowItWorksSection from "app/components/howItWorks/how";
+import { Navbar } from "app/components/Navbar/navbar";
+import SocialSidebar from "app/components/socialSidebar/socialSidebar";
+import TestimonialSection from "app/components/testimonial/testimonials";
 // Sanity Hooks
 // Types
-import { sanityQuery } from "~/helpers/querySanity";
+import { sanityQuery } from "app/helpers/querySanity";
 import { useLoaderData } from "@remix-run/react";
-import CategorySection from "~/components/category/category";
+import CategorySection from "app/components/category/category";
 
 export const meta: MetaFunction = () => {
   return [

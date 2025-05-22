@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { useInView } from "framer-motion";
 import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { TestimonialData } from "~/resources/testimonials";
+import { TestimonialData } from "app/resources/testimonials";
 import { SectionHeading } from "../sectionHeading/heading";
 
 const TestimonialSection = () => {

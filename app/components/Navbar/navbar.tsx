@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
 import { useState } from "react";
-import { navLinks } from "~/resources/navlinks";
+import { navLinks } from "app/resources/navlinks";
 
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";

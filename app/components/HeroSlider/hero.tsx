@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { HeroSliderProps } from "~/types";
+import { HeroSliderProps } from "app/types";
 import { urlFor } from "sanity-studio/studio/imageBuilder";
 
 const HeroSlider: React.FC<HeroSliderProps> = ({ sliderData }) => {

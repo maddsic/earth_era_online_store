@@ -16,7 +16,7 @@ import {
 import { useState } from "react";
 import { client } from "sanity-studio/studio/client";
 import { urlFor } from "sanity-studio/studio/imageBuilder";
-import { Navbar } from "~/components/Navbar/navbar";
+import { Navbar } from "app/components/Navbar/navbar";
 import { isRouteErrorResponse, useRouteError } from "@remix-run/react";
 
 const ProductDetailsPage = () => {
