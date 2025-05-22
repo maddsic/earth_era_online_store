@@ -1,8 +1,8 @@
 {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "buildCommand": "pnpm install --legacy-peer-deps && pnpm run build",
-    "outputDirectory": "public",
-    "installCommand": "pnpm install --legacy-peer-deps"
+    "build": {
+      "commands": {
+        "install": "pnpm install",
+        "build": "pnpm run build"
+      }
+    }
   }
